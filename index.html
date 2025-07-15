@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Album Release - One Time Play</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Background Video -->
+  <video id="backgroundVideo" autoplay muted loop>
+    <source src="./assets/background-video.mp4" type="video/mp4">
+    <!-- Fallback for browsers that don't support video -->
+    <div class="video-fallback">
+      <p>Your browser doesn't support video backgrounds. Please add a fallback image.</p>
+    </div>
+  </video>
+
+  <!-- Main Content -->
+  <div class="container">
+    <header class="album-header">
+      <p class="itsROGO"><a href="https://www.mikeguidomusic.com/" target="_blank" rel="noopener noreferrer" class="artist-link">itsROGO</a></p>
+    </header>
+
+    <main class="player-container">
+      <div class="track-info">
+        <h2 id="currentTrack">Select a track to play</h2>
+        <p id="trackStatus">Free to play</p>
+      </div>
+
+      <!-- Audio Player -->
+      <div class="audio-player">
+        <audio id="audioPlayer" preload="metadata">
+          <source src="" type="audio/wav">
+          <source src="" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        
+        <!-- Play Chamber -->
+        <div class="play-chamber">
+          <div class="chamber-label">Play</div>
+          <div id="chamberSlot" class="chamber-slot">
+            <div class="chamber-placeholder">Click a track to load it here</div>
+          </div>
+        </div>
+        
+        <div class="player-controls">
+          <button id="playPauseBtn" class="control-btn" disabled>
+            <span class="play-icon">▶</span>
+            <span class="pause-icon" style="display: none;">⏸</span>
+          </button>
+          <div class="progress-container">
+            <div class="progress-bar">
+              <div id="progressFill" class="progress-fill"></div>
+            </div>
+            <div class="time-info">
+              <span id="currentTime">0:00</span>
+              <span id="duration">0:00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Track List -->
+      <div class="tracklist">
+        <h3>Tracklist</h3>
+        <div id="trackList" class="track-items">
+          <!-- Tracks will be populated by JavaScript -->
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
