@@ -30,93 +30,93 @@ const DEVICE_ID = generateDeviceFingerprint();
 const ALBUM_TRACKS = [
   {
     id: 1,
-    name: "Cinema",
-    file: "./assets/track1_cinema.wav",
-    duration: "4:30"
+    name: "Faster Faster",
+    file: "./assets/track1_fasterfaster.wav",
+    duration: "3:10"
   },
   {
     id: 2,
-    name: "Creeping",
-    file: "./assets/track2_creeping.mp3",
-    duration: "3:45"
+    name: "Sonora",
+    file: "./assets/track2_sonora.wav",
+    duration: "4:51"
   },
   {
     id: 3,
-    name: "Everything Is Easy",
-    file: "./assets/track3_everythingiseasy.mp3",
-    duration: "4:12"
+    name: "Shame",
+    file: "./assets/track3_shame.wav",
+    duration: "1:48"
   },
   {
     id: 4,
-    name: "Faster",
-    file: "./assets/track4_faster.wav",
-    duration: "3:58"
+    name: "Hey Beautiful",
+    file: "./assets/track4_heybeautiful.wav",
+    duration: "3:15"
   },
   {
     id: 5,
-    name: "Gun Shy",
-    file: "./assets/track5_gunshy.mp3",
-    duration: "4:07"
+    name: "No Fair",
+    file: "./assets/track5_nofair.wav",
+    duration: "3:17"
   },
   {
     id: 6,
-    name: "Hey Beautiful",
-    file: "./assets/track6_heybeautiful.wav",
-    duration: "3:33"
+    name: "Creeping",
+    file: "./assets/track6_creeping.wav",
+    duration: "3:24"
   },
   {
     id: 7,
-    name: "Wanna Be Seen",
-    file: "./assets/track7_wannabeseen.wav",
-    duration: "4:25"
+    name: "Cinema",
+    file: "./assets/track7_cinema.wav",
+    duration: "3:15"
   },
   {
     id: 8,
-    name: "Matter of the Heart",
-    file: "./assets/track8_matteroftheheart.wav",
-    duration: "3:52"
+    name: "Teenage Stars in Horror Movies",
+    file: "./assets/track8_teenagestars.wav",
+    duration: "4:00"
   },
   {
     id: 9,
-    name: "No Fair",
-    file: "./assets/track9_nofair.wav",
-    duration: "4:18"
+    name: "Rainbow Basin",
+    file: "./assets/track9_rainbowbasin.wav",
+    duration: "3:28"
   },
   {
     id: 10,
-    name: "Shame",
-    file: "./assets/track10_shame.wav",
-    duration: "3:41"
-  },
-  {
-    id: 11,
-    name: "Sonora",
-    file: "./assets/track11_sonora.wav",
-    duration: "4:35"
-  },
-  {
-    id: 12,
-    name: "Tattoos",
-    file: "./assets/track12_tattoos.mp3",
-    duration: "3:29"
-  },
-  {
-    id: 13,
-    name: "Teenage Stars",
-    file: "./assets/track13_teenagestars.wav",
-    duration: "4:03"
-  },
-  {
-    id: 14,
-    name: "We Are",
-    file: "./assets/track14_weare.wav",
+    name: "Wanna Be Seen",
+    file: "./assets/track10_wannabeseen.wav",
     duration: "3:47"
   },
   {
+    id: 11,
+    name: "Tattoos",
+    file: "./assets/track11_tattoos.wav",
+    duration: "3:12"
+  },
+  {
+    id: 12,
+    name: "We Are",
+    file: "./assets/track12_weare.wav",
+    duration: "3:06"
+  },
+  {
+    id: 13,
+    name: "Matter of the Heart",
+    file: "./assets/track13_matteroftheheart.wav",
+    duration: "2:43"
+  },
+  {
+    id: 14,
+    name: "Gun Shy",
+    file: "./assets/track14_gunshy.wav",
+    duration: "2:25"
+  },
+  {
     id: 15,
-    name: "Rainbow Basin",
-    file: "./assets/track15_rainbowbasin.wav",
-    duration: "4:55"
+    name: "Everything is Easy",
+    file: "./assets/track15_everythingiseasy.wav",
+    duration: "2:28"
   }
 ];
 
